@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Get the search form
-    const form = document.getElementById('searchForm');
+    // Get the search button
+    const searchButton = document.getElementById('searchButton');
 
-    // Add event listener for form submission
-    form.addEventListener('submit', function(event) {
+    // Add event listener for search button click
+    searchButton.addEventListener('click', function(event) {
         // Prevent default form submission
         event.preventDefault();
 
